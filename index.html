@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Metronome</title>
+</head>
+<body>
+  <h1>Metronome</h1>
+  <p>BPM: <span id="bpm">100</span></p>
+  <button onclick="decreaseBPM()">-</button>
+  <button onclick="increaseBPM()">+</button>
+  <br>
+  <button onclick="startMetronome()">Start</button>
+  <button onclick="stopMetronome()">Stop</button>
+  <br>
+  <input type="range" min="0" max="1" step="0.1" value="0.5" onchange="changeVolume(this.value)">
+  <script src="script.js"></script>
+</body>
+</html>
