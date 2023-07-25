@@ -55,7 +55,7 @@ function changeVolume(volume) {
 }
 
 function playClick() {
-  const soundFilePath = "path/to/metronome-sound.wav"; // Replace with the actual path to the sound file
+  const soundFilePath = "sounds/metronome-sound.wav"; // Replace with the actual path to the sound file
   const request = new XMLHttpRequest();
   request.open("GET", soundFilePath, true);
   request.responseType = "arraybuffer";
